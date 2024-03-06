@@ -26,9 +26,9 @@ class Ship(Sprite):
         teclas = pygame.key.get_pressed()
         
         if teclas[K_LEFT]:
-            self.rotar(2)
+            self.rotar(4)
         elif teclas[K_RIGHT]:
-            self.rotar(-2)
+            self.rotar(-4)
         elif teclas[K_UP]:
             self.acelerar()
         elif teclas[K_DOWN]:

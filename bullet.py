@@ -20,3 +20,10 @@ class Bullet(Sprite):
         self.rect = self.rect.move(self.vel)
         self.rect.x = self.rect.x % self.contenedor[0]
         self.rect.y = self.rect.y % self.contenedor[1]
+        print(self.rect.x)
+
+
+
+
+
+        
